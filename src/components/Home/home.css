@@ -1,0 +1,86 @@
+.h619introSection {
+  text-align: left;
+}
+
+.h619Title {
+  font-family: Google Sans Bold;
+}
+
+.h619Icon {
+  color: #fff;
+}
+
+.h619ButtonContainer {
+  column-gap: 10px;
+  margin-top: 30px;
+}
+
+.h619Button {
+  justify-content: center;
+}
+
+.h619Button:hover {
+  transform: scale(1.1);
+}
+
+.h619StarmeBtn:hover {
+  transform: scale(1.02);
+}
+
+@media (min-width: 481px) {
+  .h619Container {
+    padding: 50px 30px;
+  }
+
+  .h619Item {
+    padding: 40px 30px;
+    width: 50%;
+  }
+
+  .h619introSection,
+  .h619imageSection {
+    flex: 1 1;
+    overflow: hidden;
+  }
+  
+
+  .h619imageSection {
+    aspect-ratio: 1;
+    max-width: 50%;
+    height: auto;
+  }
+
+  .h619Title {
+    font-size: 45px;
+    font-weight:bolder;
+  }
+
+  .h619Description {
+    font-size: larger;
+    color: var(--text-secondary);
+  }
+
+  .h619Button {
+    height: 40px;
+    aspect-ratio: 1;
+  }
+
+  .h619Icon {
+    font-size: larger;
+  }
+
+  .h619StarmeBtn {
+    font-size: large;
+    background-color: var(--text);
+    color: #fff;
+    padding: 15px;
+    display: block;
+    width: fit-content;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 480px){
+
+}

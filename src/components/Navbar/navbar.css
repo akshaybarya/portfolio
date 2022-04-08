@@ -1,0 +1,77 @@
+.nav195TitleMain {
+  font-family: "Agustina Regular";
+  font-weight: 700;
+}
+
+.nav195Button {
+  color: var(--text);
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.nav195Button:hover,
+.nav195Button:active {
+  color: var(--dark);
+  background-color: var(--highlight);
+  font-weight: 700;
+}
+
+.nav195Icon {
+  font-size: 20px;
+}
+
+.nav195Dropdown {
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 0 20px 20px;
+}
+
+@media (max-width: 480px) {
+  .nav195OuterContainer {
+    padding: 10px 20px;
+  }
+  
+  .nav195Title {
+    font-size: larger;
+    font-weight: 600;
+  }
+
+  .nav195DesktopSection {
+    display: none;
+  }
+
+  .nav195Button {
+    display: block;
+    padding: 10px;
+  }
+
+  .nav195Item {
+    column-gap: 3px;
+  }
+}
+
+@media (min-width: 481px) {
+  .nav195OuterContainer {
+    padding: 20px 50px;
+  }
+  
+  .nav195Title {
+    font-size: x-large;
+  }
+  
+  .nav195MobileSection {
+    display: none;
+  }
+
+  .nav195DesktopSection {
+    column-gap: 20px;
+  }
+  
+  .nav195Button {
+    padding: 15px;
+  }
+
+  .nav195Item {
+    column-gap: 5px;
+  }
+}

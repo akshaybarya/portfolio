@@ -11,6 +11,8 @@
 # production
 /build
 
+/src/assests/font-awesome
+
 # misc
 .DS_Store
 .env.local

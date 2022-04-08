@@ -1,0 +1,55 @@
+.hide {
+  display: none;
+}
+
+.absolute-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.valign-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.vspace-between {
+  justify-content: space-between;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.cur-po {
+  cursor: pointer;
+}
