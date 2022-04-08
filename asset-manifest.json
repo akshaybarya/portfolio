@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/portfolio/static/js/main.031040a3.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/portfolio/static/css/main.d1f592a8.css",
+    "main.js": "/portfolio/static/js/main.635e5798.js",
+    "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/GoogleSans-Italic.ttf": "/portfolio/static/media/GoogleSans-Italic.40bb50bd202405745006.ttf",
+    "static/media/GoogleSans-MediumItalic.ttf": "/portfolio/static/media/GoogleSans-MediumItalic.56d4f777a7997e5a10b3.ttf",
+    "static/media/GoogleSans-BoldItalic.ttf": "/portfolio/static/media/GoogleSans-BoldItalic.d282e9c31d0f894a7f06.ttf",
+    "static/media/GoogleSans-Regular.ttf": "/portfolio/static/media/GoogleSans-Regular.bec0591b6a291c3ca895.ttf",
+    "static/media/GoogleSans-Medium.ttf": "/portfolio/static/media/GoogleSans-Medium.963c3e555aaada9ef8a9.ttf",
+    "static/media/GoogleSans-Bold.ttf": "/portfolio/static/media/GoogleSans-Bold.d907e4bf3e32637a636e.ttf",
+    "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/feeling_proud.svg": "/portfolio/static/media/feeling_proud.e87d09a6c178149104a99780a72655e6.svg",
     "index.html": "/portfolio/index.html",
-    "main.073c9b0a.css.map": "/portfolio/static/css/main.073c9b0a.css.map",
-    "main.031040a3.js.map": "/portfolio/static/js/main.031040a3.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.d1f592a8.css.map": "/portfolio/static/css/main.d1f592a8.css.map",
+    "main.635e5798.js.map": "/portfolio/static/js/main.635e5798.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.031040a3.js"
+    "static/css/main.d1f592a8.css",
+    "static/js/main.635e5798.js"
   ]
 }
