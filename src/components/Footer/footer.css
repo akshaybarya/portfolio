@@ -1,0 +1,19 @@
+.f222Container {
+  text-align: center;
+  color: var(--text-secondary);
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .f222Container {
+    font-size: medium;
+    padding: 25px 10px;
+  }
+}
+
+@media (min-width: 481px) {
+  .f222Container {
+    font-size: xx-large;
+    padding: 50px;
+  }
+}

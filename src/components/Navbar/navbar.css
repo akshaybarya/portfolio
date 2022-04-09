@@ -43,6 +43,8 @@
   .nav195Button {
     display: block;
     padding: 10px;
+    width: 90%;
+    transition: none;
   }
 
   .nav195Item {

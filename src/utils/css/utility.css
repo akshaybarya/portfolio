@@ -53,3 +53,7 @@
 .cur-po {
   cursor: pointer;
 }
+
+.block {
+  display: block;
+}

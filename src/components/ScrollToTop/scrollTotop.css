@@ -1,0 +1,37 @@
+.stt321Conatainer {
+  position: fixed;
+  background-color: var(--dark);
+}
+
+.stt321Icon {
+  color: #fff;
+}
+
+.stt321Conatainer:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 480px) {
+  .stt321Conatainer {
+    top: 90%;
+    right: 5%;
+    padding: 12px 15px;
+    aspect-ratio: 1;
+  }
+
+  .stt321Icon {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 481px) {
+  .stt321Conatainer {
+    top: 88%;
+    right: 10%;
+    padding: 16px 20px;
+  }
+
+  .stt321Icon {
+    font-size: 30px;
+  }
+}

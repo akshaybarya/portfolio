@@ -26,11 +26,11 @@ const Navbar = () => {
         </div>
 
         <div className="nav195Item nav195DesktopSection valign-wrapper">
-          <span className="nav195Button cur-po">Home</span>
-          <span className="nav195Button cur-po">Education</span>
-          <span className="nav195Button cur-po">Experience</span>
-          <span className="nav195Button cur-po">Projects</span>
-          <span className="nav195Button cur-po">Contact Me</span>
+          <a href='#home' className="nav195Button cur-po">Home</a>
+          <a href='#education' className="nav195Button cur-po">Education</a>
+          <a href='#experience' className="nav195Button cur-po">Experience</a>
+          <a href='#projects' className="nav195Button cur-po">Projects</a>
+          <a href='#contact-me' className="nav195Button cur-po">Contact Me</a>
         </div>
 
         <div className="nav195Item nav195MobileSection" onClick={alterDropdown}>
@@ -39,7 +39,7 @@ const Navbar = () => {
 
       </div>
         {dropdownActive && (
-          <div className='nav195Dropdown valigin-wrapper'>
+          <div className='nav195Dropdown valign-wrapper'>
             <span className="nav195Button cur-po">Home</span>
             <span className="nav195Button cur-po">Education</span>
             <span className="nav195Button cur-po">Experience</span>
