@@ -14,6 +14,10 @@
   color: var(--text-secondary);
 }
 
+.int111ImgIcons:hover {
+  transform: scale(1.1);
+}
+
 @media (min-width: 481px) {
   .int111InnerContainer {
     padding: 50px 30px;

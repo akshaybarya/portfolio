@@ -2,6 +2,7 @@ import './App.css';
 
 import React from 'react';
 
+import Education from './components/Education';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Intro from './components/Intro';
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar />
       <Home />
       <Intro />
+      <Education />
       <Footer />
       <ScrollToTop />
     </div>

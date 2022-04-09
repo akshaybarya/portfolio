@@ -4,6 +4,7 @@ import React from 'react';
 
 import ethereum from '../../assests/icons/ethereum.svg';
 import express from '../../assests/icons/express.svg';
+import gh_pages from '../../assests/icons/gh-pages.svg';
 import git from '../../assests/icons/git.svg';
 import heroku from '../../assests/icons/heriku.svg';
 import mongodb from '../../assests/icons/mongodb.svg';
@@ -70,7 +71,7 @@ const Intro = () => {
           <img alt="" src={next} className='int111ImgIcons'/>
           <img alt="" src={npm} className='int111ImgIcons'/>
           <img alt="" src={git} className='int111ImgIcons'/>
-          <i className="fa-brands fa-github int111Icons" style={{color: '#000'}}></i>
+          <img alt="" src={gh_pages} className='int111ImgIcons'/>
           <img alt="" src={netlify} className='int111ImgIcons'/>
           <img alt="" src={heroku} className='int111ImgIcons'/>
           </div>

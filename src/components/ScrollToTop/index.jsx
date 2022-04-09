@@ -33,7 +33,7 @@ const ScrollToTop = () => {
   }
 
   return (
-    <span className='stt321Conatainer circle' onClick={scroll}>
+    <span className='stt321Conatainer circle cur-po' onClick={scroll}>
       <i className="fa-solid fa-angle-up stt321Icon"></i>
     </span>
   )
